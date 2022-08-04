@@ -56,15 +56,39 @@
 		6A26788D289C35010085448D /* Crypto Currency Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				6A2678A4289C359B0085448D /* Controller */,
+				6A2678A3289C35970085448D /* View */,
+				6A2678A2289C35910085448D /* Model */,
 				6A26788E289C35010085448D /* AppDelegate.swift */,
 				6A267890289C35010085448D /* SceneDelegate.swift */,
-				6A267892289C35010085448D /* ViewController.swift */,
-				6A267894289C35010085448D /* Main.storyboard */,
 				6A267897289C35050085448D /* Assets.xcassets */,
 				6A267899289C35050085448D /* LaunchScreen.storyboard */,
 				6A26789C289C35050085448D /* Info.plist */,
 			);
 			path = "Crypto Currency Tracker";
+			sourceTree = "<group>";
+		};
+		6A2678A2289C35910085448D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A2678A3289C35970085448D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A267894289C35010085448D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A2678A4289C359B0085448D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A267892289C35010085448D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
